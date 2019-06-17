@@ -13,6 +13,12 @@ python machine.py
 you need installed `pytest` (and optionally `pytest-cov`)  in your system/virtualenv!
 
 ```
-pytest
+python -m pytest
+```
+
+with coverage:
+
+```
+python -m pytest --cov=machine --cov-report term-missing
 ```
 
